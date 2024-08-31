@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33e735db-e334-4546-85ba-6625425b529e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/paymentservice/paymentservice/CachedExRateProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/paymentservice/paymentservice/exrate/CachedExRateProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/paymentservice/paymentservice/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/paymentservice/paymentservice/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/paymentservice/paymentservice/ExRateData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/paymentservice/paymentservice/exrate/ExRateData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/paymentservice/paymentservice/ExRateProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/paymentservice/paymentservice/exrate/ExRateProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/paymentservice/paymentservice/ObjectFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/paymentservice/paymentservice/ObjectFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/paymentservice/paymentservice/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/paymentservice/paymentservice/payment/Payment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/paymentservice/paymentservice/PaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/paymentservice/paymentservice/payment/PaymentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/paymentservice/paymentservice/SimpleExRateProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/paymentservice/paymentservice/exrate/SimpleExRateProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/paymentservice/paymentservice/WebApiExRateProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/paymentservice/paymentservice/exrate/WebApiExRateProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/paymentservice/paymentservice/Sort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/paymentservice/paymentservice/SortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,6 +84,8 @@
   "keyToString": {
     "Application.Client.executor": "Run",
     "Application.PaymentService.executor": "Run",
+    "Application.Sort.executor": "Run",
+    "JUnit.SortTest.executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -112,7 +108,22 @@
       <recent name="paymentservice.paymentservice" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.SortTest">
+    <configuration name="SortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PaymentService.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="paymentservice.paymentservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="paymentservice.paymentservice" />
+      <option name="MAIN_CLASS_NAME" value="paymentservice.paymentservice.SortTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PaymentServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="PaymentService.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="paymentservice.paymentservice.PaymentServiceApplication" />
@@ -120,6 +131,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SortTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
