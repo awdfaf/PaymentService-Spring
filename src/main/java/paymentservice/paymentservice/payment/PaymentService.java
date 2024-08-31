@@ -1,4 +1,4 @@
-package paymentservice.paymentservice;
+package paymentservice.paymentservice.payment;
 
 import org.springframework.stereotype.Component;
 

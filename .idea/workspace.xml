@@ -5,11 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33e735db-e334-4546-85ba-6625425b529e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/paymentservice/paymentservice/CachedExRateProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/paymentservice/paymentservice/CachedExRateProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/paymentservice/paymentservice/exrate/CachedExRateProvider.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/paymentservice/paymentservice/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/paymentservice/paymentservice/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/paymentservice/paymentservice/ExRateData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/paymentservice/paymentservice/exrate/ExRateData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/paymentservice/paymentservice/ExRateProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/paymentservice/paymentservice/exrate/ExRateProvider.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/paymentservice/paymentservice/ObjectFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/paymentservice/paymentservice/ObjectFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/paymentservice/paymentservice/WebApiExRateProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/paymentservice/paymentservice/WebApiExRateProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/paymentservice/paymentservice/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/paymentservice/paymentservice/payment/Payment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/paymentservice/paymentservice/PaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/paymentservice/paymentservice/payment/PaymentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/paymentservice/paymentservice/SimpleExRateProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/paymentservice/paymentservice/exrate/SimpleExRateProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/paymentservice/paymentservice/WebApiExRateProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/paymentservice/paymentservice/exrate/WebApiExRateProvider.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

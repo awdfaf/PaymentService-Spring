@@ -2,6 +2,8 @@ package paymentservice.paymentservice;
 
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import paymentservice.paymentservice.payment.Payment;
+import paymentservice.paymentservice.payment.PaymentService;
 
 import java.io.IOException;
 import java.math.BigDecimal;

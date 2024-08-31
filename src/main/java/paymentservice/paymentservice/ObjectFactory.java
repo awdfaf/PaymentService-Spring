@@ -2,8 +2,11 @@ package paymentservice.paymentservice;
 
 
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import paymentservice.paymentservice.exrate.CachedExRateProvider;
+import paymentservice.paymentservice.payment.ExRateProvider;
+import paymentservice.paymentservice.exrate.WebApiExRateProvider;
+import paymentservice.paymentservice.payment.PaymentService;
 
 @Configuration
 public class ObjectFactory {

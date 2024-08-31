@@ -1,4 +1,4 @@
-package paymentservice.paymentservice;
+package paymentservice.paymentservice.exrate;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 

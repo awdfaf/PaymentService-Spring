@@ -1,4 +1,4 @@
-package paymentservice.paymentservice;
+package paymentservice.paymentservice.payment;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;

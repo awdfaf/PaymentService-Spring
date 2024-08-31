@@ -1,6 +1,6 @@
-package paymentservice.paymentservice;
+package paymentservice.paymentservice.exrate;
 
-import org.springframework.cglib.core.Local;
+import paymentservice.paymentservice.payment.ExRateProvider;
 
 import java.io.IOException;
 import java.math.BigDecimal;

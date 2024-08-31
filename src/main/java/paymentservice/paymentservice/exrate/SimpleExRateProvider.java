@@ -1,4 +1,6 @@
-package paymentservice.paymentservice;
+package paymentservice.paymentservice.exrate;
+
+import paymentservice.paymentservice.payment.ExRateProvider;
 
 import java.io.IOException;
 import java.math.BigDecimal;
