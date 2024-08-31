@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33e735db-e334-4546-85ba-6625425b529e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/paymentservice/paymentservice/TestObjectFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/paymentservice/paymentservice/payment/ExRateProviderStub.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/paymentservice/paymentservice/payment/PaymentServiceSpringTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/paymentservice/paymentservice/learningtest/ClockTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/paymentservice/paymentservice/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/paymentservice/paymentservice/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/paymentservice/paymentservice/ObjectFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/paymentservice/paymentservice/PaymentConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/paymentservice/paymentservice/payment/PaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/paymentservice/paymentservice/payment/PaymentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/paymentservice/paymentservice/TestObjectFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/paymentservice/paymentservice/TestPaymentConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/paymentservice/paymentservice/payment/PaymentServiceSpringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/paymentservice/paymentservice/payment/PaymentServiceSpringTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/paymentservice/paymentservice/payment/PaymentServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/paymentservice/paymentservice/payment/PaymentServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,8 +92,10 @@
     "Application.PaymentService.executor": "Run",
     "Application.Sort.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.ClockTest.executor": "Run",
     "JUnit.PaymentServiceSpringTest.executor": "Run",
     "JUnit.PaymentServiceTest.executor": "Run",
+    "JUnit.PaymentServiceTest.validUntil.executor": "Run",
     "JUnit.SortTest.executor": "Run",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
@@ -130,6 +135,21 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.PaymentServiceSpringTest">
+    <configuration name="ClockTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PaymentService.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="paymentservice.paymentservice.learningtest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="paymentservice.paymentservice.learningtest" />
+      <option name="MAIN_CLASS_NAME" value="paymentservice.paymentservice.learningtest.ClockTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PaymentServiceSpringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PaymentService.test" />
       <extension name="coverage">
@@ -160,6 +180,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PaymentServiceTest.validUntil" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PaymentService.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="paymentservice.paymentservice.payment.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="paymentservice.paymentservice.payment" />
+      <option name="MAIN_CLASS_NAME" value="paymentservice.paymentservice.payment.PaymentServiceTest" />
+      <option name="METHOD_NAME" value="validUntil" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PaymentService.test" />
       <extension name="coverage">
@@ -186,6 +222,8 @@
       <list>
         <item itemvalue="JUnit.PaymentServiceSpringTest" />
         <item itemvalue="JUnit.PaymentServiceTest" />
+        <item itemvalue="JUnit.PaymentServiceTest.validUntil" />
+        <item itemvalue="JUnit.ClockTest" />
         <item itemvalue="JUnit.SortTest" />
       </list>
     </recent_temporary>

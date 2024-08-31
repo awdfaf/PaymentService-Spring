@@ -8,11 +8,13 @@ import paymentservice.paymentservice.payment.ExRateProvider;
 import paymentservice.paymentservice.exrate.WebApiExRateProvider;
 import paymentservice.paymentservice.payment.PaymentService;
 
+import java.time.Clock;
+
 @Configuration
-public class ObjectFactory {
+public class PaymentConfig {
     @Bean
     public PaymentService paymentService() {
-        return new PaymentService(cachedExRateProvider());
+        return new PaymentService(cachedExRateProvider(), clock());
     }
     @Bean
     public ExRateProvider cachedExRateProvider() {
@@ -23,5 +25,8 @@ public class ObjectFactory {
     public ExRateProvider exRateProvider() {
         return new WebApiExRateProvider();
     }
+
+    @Bean
+    public Clock clock() { return  Clock.systemDefaultZone(); }
 
 }
