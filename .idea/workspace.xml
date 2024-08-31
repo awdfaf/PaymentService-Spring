@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33e735db-e334-4546-85ba-6625425b529e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/paymentservice/paymentservice/payment/PaymentServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/paymentservice/paymentservice/TestObjectFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/paymentservice/paymentservice/payment/ExRateProviderStub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/paymentservice/paymentservice/payment/PaymentServiceSpringTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/paymentservice/paymentservice/payment/PaymentServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/paymentservice/paymentservice/payment/PaymentServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,8 +43,8 @@
       <list>
         <option value="Record" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -84,8 +88,13 @@
     "Application.Client.executor": "Run",
     "Application.PaymentService.executor": "Run",
     "Application.Sort.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.PaymentServiceSpringTest.executor": "Run",
     "JUnit.PaymentServiceTest.executor": "Run",
     "JUnit.SortTest.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -115,8 +124,27 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="paymentservice.paymentservice.payment" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="paymentservice.paymentservice" />
+      <recent name="paymentservice.paymentservice.payment" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.PaymentServiceTest">
+  <component name="RunManager" selected="JUnit.PaymentServiceSpringTest">
+    <configuration name="PaymentServiceSpringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PaymentService.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="paymentservice.paymentservice.payment.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="paymentservice.paymentservice.payment" />
+      <option name="MAIN_CLASS_NAME" value="paymentservice.paymentservice.payment.PaymentServiceSpringTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PaymentServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PaymentService.test" />
       <extension name="coverage">
@@ -156,6 +184,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PaymentServiceSpringTest" />
         <item itemvalue="JUnit.PaymentServiceTest" />
         <item itemvalue="JUnit.SortTest" />
       </list>
