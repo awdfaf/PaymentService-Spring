@@ -3,6 +3,9 @@ package paymentservice.paymentservice;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import paymentservice.paymentservice.api.ApiTemplate;
+import paymentservice.paymentservice.api.ErApiExRateExtractor;
+import paymentservice.paymentservice.api.SimpleApiExecutor;
 import paymentservice.paymentservice.exrate.CachedExRateProvider;
 import paymentservice.paymentservice.payment.ExRateProvider;
 import paymentservice.paymentservice.exrate.WebApiExRateProvider;
@@ -22,8 +25,13 @@ public class PaymentConfig {
     }
 
     @Bean
+    public ApiTemplate apiTemplate() {
+        return new ApiTemplate(new SimpleApiExecutor(), new ErApiExRateExtractor());
+    }
+
+    @Bean
     public ExRateProvider exRateProvider() {
-        return new WebApiExRateProvider();
+        return new WebApiExRateProvider(apiTemplate());
     }
 
     @Bean
