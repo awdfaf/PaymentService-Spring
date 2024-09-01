@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33e735db-e334-4546-85ba-6625425b529e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/paymentservice/paymentservice/api/ExRateExtractor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/paymentservice/paymentservice/exrate/WebApiExRateProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/paymentservice/paymentservice/exrate/WebApiExRateProvider.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -239,7 +240,7 @@
       <workItem from="1724930844392" duration="5844000" />
       <workItem from="1725081531331" duration="3259000" />
       <workItem from="1725081531331" duration="849000" />
-      <workItem from="1725153105470" duration="1491000" />
+      <workItem from="1725153105470" duration="2033000" />
     </task>
     <servers />
   </component>
