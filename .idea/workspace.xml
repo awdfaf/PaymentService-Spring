@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33e735db-e334-4546-85ba-6625425b529e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/paymentservice/paymentservice/api/ApiExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/paymentservice/paymentservice/api/SimpleApiExecutor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/paymentservice/paymentservice/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/paymentservice/paymentservice/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/paymentservice/paymentservice/exrate/CachedExRateProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/paymentservice/paymentservice/exrate/CachedExRateProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/paymentservice/paymentservice/exrate/SimpleExRateProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/paymentservice/paymentservice/exrate/SimpleExRateProvider.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/paymentservice/paymentservice/exrate/WebApiExRateProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/paymentservice/paymentservice/exrate/WebApiExRateProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/paymentservice/paymentservice/payment/ExRateProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/paymentservice/paymentservice/payment/ExRateProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/paymentservice/paymentservice/payment/PaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/paymentservice/paymentservice/payment/PaymentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/paymentservice/paymentservice/payment/ExRateProviderStub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/paymentservice/paymentservice/payment/ExRateProviderStub.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/paymentservice/paymentservice/payment/PaymentServiceSpringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/paymentservice/paymentservice/payment/PaymentServiceSpringTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/paymentservice/paymentservice/payment/PaymentServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/paymentservice/paymentservice/payment/PaymentServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +137,7 @@
       <recent name="paymentservice.paymentservice.payment" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in PaymentService.test">
+  <component name="RunManager" selected="Application.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="paymentservice.paymentservice.Client" />
       <module name="PaymentService.main" />
@@ -219,8 +213,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in PaymentService.test" />
         <item itemvalue="Application.Client" />
+        <item itemvalue="JUnit.All in PaymentService.test" />
         <item itemvalue="JUnit.PaymentTest.isValid" />
         <item itemvalue="JUnit.PaymentTest" />
         <item itemvalue="JUnit.paymentservice.paymentservice.payment in PaymentService.test" />
@@ -248,7 +242,7 @@
       <workItem from="1724930844392" duration="5844000" />
       <workItem from="1725081531331" duration="3259000" />
       <workItem from="1725081531331" duration="849000" />
-      <workItem from="1725153105470" duration="760000" />
+      <workItem from="1725153105470" duration="1062000" />
     </task>
     <servers />
   </component>
