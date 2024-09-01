@@ -10,7 +10,7 @@ import java.math.BigDecimal;
 import java.util.concurrent.TimeUnit;
 
 public class Client {
-    public static void main(String[] args) throws IOException, InterruptedException {
+    public static void main(String[] args) {
         BeanFactory beanFactory = new AnnotationConfigApplicationContext(PaymentConfig.class);
         PaymentService paymentService = beanFactory.getBean(PaymentService.class);
 
@@ -21,7 +21,7 @@ public class Client {
         System.out.println("Payment2 : " + payment2);
         System.out.println("-------------------------------");
 
-        TimeUnit.SECONDS.sleep(3);
+
         Payment payment3 = paymentService.prepare(100L, "USD", BigDecimal.valueOf(50.7));
         System.out.println("Payment3 : " + payment3);
     }

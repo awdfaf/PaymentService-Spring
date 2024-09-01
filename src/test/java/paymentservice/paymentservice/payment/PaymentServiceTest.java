@@ -22,14 +22,14 @@ class PaymentServiceTest {
     }
 
     @Test
-    void convertedAmount() throws IOException {
+    void convertedAmount() {
         Clock clock = Clock.fixed(Instant.now(), ZoneId.systemDefault());
 
         testAmount(valueOf(1200), valueOf(12000), this.clock);
         testAmount(valueOf(1300), valueOf(13000), this.clock);
     }
     @Test
-    void validUntil() throws IOException {
+    void validUntil() {
         PaymentService paymentService = new PaymentService((new ExRateProviderStub(valueOf(1000))), clock);
 
         Payment payment = paymentService.prepare(100L, "USD", BigDecimal.TEN);
@@ -40,7 +40,7 @@ class PaymentServiceTest {
         Assertions.assertThat(payment.getValidUntil()).isEqualTo(expextedValidUntil);
     }
 
-    private static void testAmount(BigDecimal exRate, BigDecimal convertedAmount, Clock clock) throws IOException {
+    private static void testAmount(BigDecimal exRate, BigDecimal convertedAmount, Clock clock) {
         PaymentService paymentService = new PaymentService((new ExRateProviderStub(exRate)), clock);
 
         Payment payment = paymentService.prepare(100L, "USD", BigDecimal.TEN);
